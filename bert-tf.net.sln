@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bert-tf.net", "bert-tf.net.csproj", "{00C07485-C98F-4308-ABF7-7AD9AE402774}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tensorflow.Keras", "..\TensorFlow.NET\src\TensorFlowNET.Keras\Tensorflow.Keras.csproj", "{DFBADBE9-01DD-474D-9813-64ACF90B0B61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tensorflow.Binding", "..\TensorFlow.NET\src\TensorFlowNET.Core\Tensorflow.Binding.csproj", "{2B953458-7C5F-4EE7-A63D-07EC302B3480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		GPU|Any CPU = GPU|Any CPU
+		GPU|x64 = GPU|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.Debug|x64.Build.0 = Debug|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.GPU|Any CPU.ActiveCfg = Release|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.GPU|Any CPU.Build.0 = Release|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.GPU|x64.ActiveCfg = Release|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.GPU|x64.Build.0 = Release|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.Release|x64.ActiveCfg = Release|Any CPU
+		{00C07485-C98F-4308-ABF7-7AD9AE402774}.Release|x64.Build.0 = Release|Any CPU
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.Debug|x64.ActiveCfg = Debug|x64
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.Debug|x64.Build.0 = Debug|x64
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.GPU|Any CPU.ActiveCfg = GPU|Any CPU
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.GPU|Any CPU.Build.0 = GPU|Any CPU
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.GPU|x64.ActiveCfg = GPU|x64
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.GPU|x64.Build.0 = GPU|x64
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.Release|x64.ActiveCfg = Release|x64
+		{DFBADBE9-01DD-474D-9813-64ACF90B0B61}.Release|x64.Build.0 = Release|x64
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.Debug|x64.ActiveCfg = Debug|x64
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.Debug|x64.Build.0 = Debug|x64
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.GPU|Any CPU.ActiveCfg = GPU|Any CPU
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.GPU|Any CPU.Build.0 = GPU|Any CPU
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.GPU|x64.ActiveCfg = GPU|x64
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.GPU|x64.Build.0 = GPU|x64
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.Release|x64.ActiveCfg = Release|x64
+		{2B953458-7C5F-4EE7-A63D-07EC302B3480}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {464258B8-3E21-4E61-A295-7F9E3DF743B2}
+	EndGlobalSection
+EndGlobal
