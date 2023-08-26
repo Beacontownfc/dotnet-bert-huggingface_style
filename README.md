@@ -10,7 +10,7 @@ Reproducing `bert` using `tf.net(huggingface style)`, reproduce the result on IM
 Please download bert's pretraining weights and IMDB dataset before running the project.
 
 **下载地址：**
-- [预训练权重(Pretraining weights)，密码(Password):z9fw](https://pan.baidu.com/s/15cpYWQ4PVKtDbQOleisslw)
+- [预训练权重(Pretraining weights)，密码(Password):3mm3](https://pan.baidu.com/s/1qLdix8PHJfmACwiYnywKrw) 
 
 - [IMDB数据集(IMDB dataset)](http://ai.stanford.edu/~amaas/data/sentiment/)
 
